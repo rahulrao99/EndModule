@@ -1,0 +1,109 @@
+ SRS Document for Online Project Management 
+
+Functional Requirements for Online Project Management System;- Software Requirement 
+Online Project Management System:- Software Requirements Specification Document
+1. Introduction
+1.1 Purpose:-
+The main purpose of this SRS document is to show the functional and non-functional requirements of an online project management system. The main purpose of this system to provide a platform for employees for managing projects,team members, project managers and stakeholders efficiently.
+
+1.2 Scope:-
+The online project management system will allow users to create projects, assign tasks, monitor progress, and to interact with team members. It will also provide features for generating reports and analyzing project dat
+
+1.3 Main Audience:-
+The audience for this document is developer, project manager and stakeholders involved in the development and implementation of the online project management system.
+
+2. Overall Description:-
+2.1 Perspective of Online Project Management System:-
+The online project management system will be a standard web-based application. It will interact with users through a web interface and communicate with the backend database for storing and retrieving project related data.
+
+2.2 Product Features:-
+Users Registration and Authentication.
+
+Users are able to create new accounts and authenticate using their credentials.
+
+Project Management:-
+Users can create projects, assign to team members.
+Projects can have start and end date, descriptions, and outcome.
+
+Task Management:-
+
+Users can create tasks within projects, assign them to team members, and set task details.
+Tasks can have due dates, descriptions, priorities, and their status.
+Team Collaboration:
+
+Users can communicate with team members through a messaging system.
+Users can share files and documents related to project.
+
+2.3 User Classes and Characteristics:-
+The online project management system will provide the following user classes:-
+
+Administrators:-
+Responsible for system configuration and user management.
+
+Project Managers:-
+Create and manage projects and team members.
+Monitor project progress and generate reports.
+
+Team Members:
+Assigned tasks and collaborate with other team members.
+Update task status and communicate project-related information.
+
+
+2.4Design and Implementation;-
+The system should be developed using a modern web development technology.
+The system should follow security bese practices to protect user data.
+
+ System Features:-
+User Registration and Authentication
+This feature allows users to create new accounts and authenticate themselves to access the online project management system.
+
+Functional Requiremants:-
+Users must be able to register by providing a unique username, email address, and password.
+Users must be able to log in using their registered credentials.
+The system should provide password recovery options.
+ 
+Project Management:-
+ Description:-
+This feature enables users to create and manage projects, assign team members, and set project details.
+Users should be able to create new projects by providing a project name, description, start date, end date.
+
+Projects should have a unique key.
+Users should be able to assign team members to projects.
+This feature allows users to create and manage tasks within projects, assign them to team members, and set task details.
+
+Users should be able to create tasks within a project by providing a task name, description, due date, priority, and assignee.
+Tasks should have a unique identifier.
+Users should be able to update task status.
+
+ Team Collaboration:-
+This feature facilitates communication and collaboration among team members.
+Users should be able to send messages to other team members.
+Users should be able to share files and documents related to projects and tasks.
+ 
+Reporting and Analytics
+This feature provides reporting capabilities and project analytics.
+The system should generate project status reports, task progress reports, and team member performance reports..
+The system should provide data visualization for project analytics and performance tracking.
+
+
+Non-functional Requirements:-
+The system should support concurrent user access and respond within a given time frame.
+The system should handle a large number of projects, tasks, and users efficiently.
+
+Security;-
+User authentication should be secure, with password encryption and protection against common security threats.
+Access to sensitive data should be restricted based on user roles and permissions.
+
+Usability:-
+The user interface should be simple and easy to navigate.
+The system should provide appropriate error messages and validation to guide users.
+
+Availabality:-
+The system should be available for use 24/7.
+Data integrity should be maintained, and backups should be performed regularly.
+
+Scalability:-
+The system should be designed to handle increasing numbers of users, projects, and tasks without significant performance degradation.
+
+
+   
